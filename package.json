@@ -1,0 +1,16 @@
+{
+  "name": "ecom-api-gateway",
+  "version": "1.0.0",
+  "description": "API Gateway for ecom microservice ecosystem — centralized routing, JWT auth, and request ID propagation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.4.0"
+  }
+}
